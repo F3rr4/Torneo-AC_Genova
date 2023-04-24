@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Torneo LabGVS</title>
+    <style>
+      /* Stile per il body */
+      body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      /* Stile per il logo */
+      .logo {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+      }
+      
+      /* Stile per i pulsanti */
+      .button {
+        background-color: #0072c6;
+        border: none;
+        color: #ffffff;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        margin: 10px auto;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        max-width: 100%;
+      }
+      
+      /* Stile per il pulsante PDF */
+      .pdf {
+        background-color: #f0ab00;
+      }
+      
+      /* Stile per i pulsanti su schermi piccoli */
+      @media screen and (max-width: 480px) {
+        .button {
+          font-size: 14px;
+          padding: 8px 16px;
+        }
+      }
+      
+    </style>
+  </head>
+  <body>
+    <!-- Logo -->
+    <br>
+    <img class="logo" src="AC.png" alt="Azione Cattolica Genova">
+    <br><br>
+    <!-- Pulsanti -->
+    <div>
+      <a href="https://www.esempio.com" class="button">Link esterno 1</a>
+      <a href="https://www.esempio.com" class="button">Link esterno 2</a>
+      <a href="file.pdf" class="button pdf">Scarica il PDF</a>
+    </div>
+	
+	<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyAKOk_wuAaZZfipBeDTozsZKZPxDPge-aA",
+    authDomain: "torneo-labgvs.firebaseapp.com",
+    projectId: "torneo-labgvs",
+    storageBucket: "torneo-labgvs.appspot.com",
+    messagingSenderId: "393132578972",
+    appId: "1:393132578972:web:4204f765ef6ebff180b559"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+</script>
+
+  </body>
+</html>
